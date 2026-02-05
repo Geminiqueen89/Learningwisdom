@@ -1,0 +1,95 @@
+/* Mobile-first responsive design */
+* { box-sizing: border-box; margin:0; padding:0; }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+h1, h2 { margin-bottom: 0.5rem; }
+main {
+    max-width: 1000px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+nav {
+    background: #0056b3;
+    padding: 0.5rem;
+}
+.nav-menu {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    background: #0056b3;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+}
+#menu-toggle:checked ~ .nav-menu { display: flex; }
+.hamburger {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+}
+.nav-menu a:hover { background: rgba(255,255,255,0.2); border-radius: 5px; }
+section { margin-bottom: 2rem; }
+.quiz, .plan-checklist {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #007bff;
+    color: white;
+    margin-top: 2rem;
+}
+
+/* Larger screens */
+@media (min-width: 768px) {
+    .hamburger { display: none; }
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: static;
+        padding: 0;
+        background: none;
+    }
+    .nav-menu li { margin: 0 1rem; }
+    main { padding: 2rem; }
+}
