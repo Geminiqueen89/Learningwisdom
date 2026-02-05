@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge is Power</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Knowledge is Power</h1>
+        <p>Empowering information on mental health, relationships, recovery, and personal growth.<br>
+        <strong>Educational only</strong> — not medical advice. In crisis? Call/text <strong>988</strong> or visit <a href="resources.html">Resources Hub</a>.</p>
+
+        <nav>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">☰ Menu</label>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Resources Hub</a></li>
+                <li><a href="self-care-toolkit.html">Self-Care Toolkit</a></li>
+                <li><a href="quotes-affirmations.html">Quotes & Affirmations</a></li>
+                <li><a href="healthy-relationships.html">Healthy Relationships</a></li>
+                <li><a href="boundaries.html">Healthy Boundaries</a></li>
+                <li><a href="narcissism.html">Narcissism</a></li>
+                <li><a href="domestic-violence.html">Domestic Violence</a></li>
+                <li><a href="adhd.html">ADHD</a></li>
+                <li><a href="bipolar.html">Bipolar Disorder</a></li>
+                <li><a href="depression.html">Depression</a></li>
+                <li><a href="anxiety.html">Anxiety</a></li>
+                <li><a href="stress.html">Dealing with Stress</a></li>
+                <li><a href="gambling-addiction.html">Gambling Addiction</a></li>
+                <li><a href="substance-addiction.html">Substance Addiction</a></li>
+                <li><a href="dual-diagnosis.html">Dual Diagnosis Treatment</a></li>
+                <li><a href="trauma-informed-care.html">Trauma-Informed Care</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome</h2>
+            <p>Explore topics to build awareness, find resources, and support your journey toward healing and growth.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Knowledge is Power • Not a substitute for professional care • Sources: NIMH, SAMHSA, Mayo Clinic & more</p>
+    </footer>
+
+    <script src="quizzes.js"></script>
+</body>
+</html>
