@@ -93,3 +93,43 @@ footer {
     .nav-menu li { margin: 0 1rem; }
     main { padding: 2rem; }
 }
+/* Brain Health Section Styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #4a90e2; /* Or your primary brand color */
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+#bright-minds ul {
+    list-style: none;
+    padding: 0;
+}
+
+#bright-minds li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#bright-minds li strong {
+    color: #e67e22; /* Highlighting the BRIGHT MINDS letters */
+}
